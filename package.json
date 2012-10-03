@@ -2,7 +2,7 @@
   "name": "jpmobile-ip",
   "author": "Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>",
   "description": "Get japanese carrier from ip (Based on jpmobile-ipaddresses rails plugin by jpmobile)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/jpmobile",
   "repository": {
     "type": "git",
