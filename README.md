@@ -22,3 +22,15 @@ if (jpmobile.isIpFromCarrier(req.connection.remoteAddress, "softbank")) {
 }
 
 ```
+
+or as Express middleware
+
+```js
+app.configure(function() {
+  app.use(jpmobile.middleware());
+});
+
+app.get("/", function (req, res) {
+    console.log(req.carrier);
+});
+```
